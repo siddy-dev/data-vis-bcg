@@ -1,0 +1,83 @@
+{
+  "name": "data-vis-bcg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@nivo/core": "^0.67.0",
+    "@nivo/geo": "^0.67.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "@visx/geo": "latest",
+    "@visx/responsive": "latest",
+    "@visx/scale": "latest",
+    "csvtojson": "^2.0.10",
+    "fs": "0.0.1-security",
+    "nivo": "^0.31.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "rsuite": "^4.8.9",
+    "rsuite-table": "^3.14.3",
+    "topojson-client": "^3.1.0",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:dev": "NODE_ENV=development webpack serve",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-export-default-from": "^7.12.1",
+    "@babel/plugin-proposal-export-namespace-from": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-async-to-generator": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "26.6.0",
+    "babel-loader": "8.1.0",
+    "copy-webpack-plugin": "^6.3.2",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.18.0",
+    "html-webpack-plugin": "^4.5.1",
+    "ignore-styles": "^5.0.1",
+    "jest": "26.6.0",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^1.3.2",
+    "style-loader": "^2.0.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "3.11.0"
+  }
+}
